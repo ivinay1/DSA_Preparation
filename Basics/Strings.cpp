@@ -41,5 +41,10 @@ int main()
         cout<<"generates a new string from starIdx se specified length tk "<<sa.substr(2,5)<<endl;
         // s.replace(),s.push_back(),s.pop_back(),s.find(),s.erase(startIdx,endIdx),s.clear(),s.length(),s.substr(startIdx,length of substr to be extracted),s.rfind().s.clear(),s.at(index)
 
+    //NOTE:- TO convert a character to number minus by '0'
+    //NOTE:- To convert a alphabet into number subsatract by 'a' lower case and uppercase question
+    //NOTE:- We cannot have an empty string with '' in cpp
+    //NOTE:- We must push_back string instead of string concatenation beacuse when you concate then it take new string then copies the first one then merges it with the string which is to be concated
+    
     return 0;
 }
