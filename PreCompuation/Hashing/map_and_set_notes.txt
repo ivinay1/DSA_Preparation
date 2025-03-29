@@ -1,0 +1,37 @@
+MAP 
+A map is a data structure that stores key-value pairs, allowing efficient lookup, insertion, and deletion based on the key. It's like a dictionary in other programming languages.
+
+--> It(unordered_map) uses internally Hashing to store items due to which insertion , deletion and retrieval occurs in O(1).
+--> It is of 2 types:
+    1.) unoredered_map   --> It takes O(1) to implement all functionalities.
+    2.) map(ordered_map) --> It takes O(logn) to implement all functionalities.In worst case it takes log(N) time which happens in the case of collision means all keys are chained at one index.
+    ordered_map uses Red_black Tree for performaing its functionalities
+    3.) Multi_map --> It can contain duplicate keys also.
+
+Various operations of map
+1.erase   --> used to erase element at a perticular position
+2.insert  --> used to insert an element in map using make_pair or simple m[key] = value
+3.clear   --> deletes all the members
+4.size    --> gives size of map
+5.find    --> gives iterator of that element if present if it is not there then returns end iterotor
+6. begin  --> gives pointer of first eleemnt
+7. end    --> gives pointer of last+1 eleemnt
+ 
+SET  
+A set is a data structure that stores unique elements in a sorted order, allowing efficient lookup, insertion, and deletion. It's like a mathematical set where each element appears only once.
+
+--> It(unordered_set) uses internally Hashing to store items due to which insertion , deletion and retrieval occurs in O(1).
+--> It is of 3 types:
+    1.) unoredered_set   --> It takes O(1) to implement all functionalities.
+    2.) set(ordered_set) --> It takes O(logn) to implement all functionalities.In worst case it takes log(N) time which happens in the case of collision means all keys are chained at one index.
+    ordered_set uses Red_black Tree for performaing its functionalities
+    3.) multi-set --> It can contain duplicate values also.
+
+Various operations of set
+1. erase
+2. insert
+3. find
+4. size
+5. clear
+6. begin
+7. end

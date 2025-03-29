@@ -1,0 +1,9 @@
+ Types of Questions of Intervals(ranges)
+
+ Merging ranges or Intervals
+ Checking for Overlaps
+ Counting for Overlaping intervals   ------> sweep line algorithm
+ Interval Partitioning (dividing into intervals)
+ Finding Gaps
+
+condition for overlapping : end_1 > start_2 and start_1 < end_2

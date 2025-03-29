@@ -28,5 +28,7 @@ int main()
         }
     }
 
+    // HERE , we are using iterative approach so it is of O(N) approach
+
     return 0;
 }
